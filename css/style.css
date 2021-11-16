@@ -15,8 +15,7 @@ h4{
 }
 
 body{
-    /* background-color: #f9f9f9; */
-    background-color: indianred;
+    background-color: #f9f9f9;
     font-family: 'Commissioner', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -456,7 +455,6 @@ nav{
 
  .modal-select{
     display: none;
-
     position: absolute;
     top:0;
     left: 0;
@@ -476,8 +474,9 @@ nav{
     text-align: center;
     border-radius: 10px;
 }
-/* 
-.temp{
+
+.modal-select-temp{
+    display: none;
     position: absolute;
     top:0;
     left: 0;
@@ -485,4 +484,4 @@ nav{
     height: 100%;
     width: 100%;
     z-index: 10;
-} */
+}
