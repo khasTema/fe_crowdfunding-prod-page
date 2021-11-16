@@ -22,6 +22,7 @@ body{
     font-weight: 400;
     line-height: 1.6;
     color: #bababa;
+    padding-bottom: 10em;
 }
 
 h1,
@@ -42,6 +43,11 @@ h1{
 h2{
     font-size: 2.5rem;
     margin-bottom: 0.1em;
+}
+
+h4{
+    font-size: 1.1rem;
+    margin-bottom: 0.2em;
 }
 
 
@@ -276,14 +282,14 @@ nav{
 }
 
 .main-article{
-    padding: 1em;;
+    padding: 2em;;
 }
 
 
 .option-card{
     margin: 2em auto;
-    padding: 1em 2em;
-    border: 1px solid #bababa;
+    padding: 2em 2.2em;
+    border: 1px solid #dfdfdff3;
     border-radius: 10px;
 }
 
@@ -294,13 +300,14 @@ nav{
 }
 
 .option-ofer{
-    margin-top: 0;
+    margin: 0 2em 0 0;
     color: #3cb4ac;
 }
 
 .card-cta p{
     display: flex;
     align-items: center;
+
 }
 
 .card-cta p span{
@@ -313,16 +320,29 @@ nav{
 
 .option-card_btn{
     align-self: flex-start;
+    padding: 0.5em 1.5em;
 }
 
- 
-
-
+.disabled-card{
+    filter: grayscale(45%);
+}
+.disabled-btn{
+    background-color: #bababa;
+    color: #f9f9f9;
+    cursor: not-allowed;
+}
 
 @media (min-width: 600px) {
     .card-head,
     .card-cta{
         flex-flow: row;
         justify-content: space-between;
+        align-items: center;
+    }
+    .card-cta p{
+        margin: 0;
+    }
+    .option-card_btn{
+        align-self: center;
     }
 }
