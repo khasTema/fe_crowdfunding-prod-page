@@ -439,6 +439,10 @@ nav{
     font-size: 1.3rem;
 }
 
+.option-card_donation-block .btn{
+    flex-grow: 0;
+}
+
 @media (min-width: 600px){
     .reverse {
        order: 5;
@@ -450,6 +454,9 @@ nav{
     }
     .option-card_description-block .card-cta-p{
         margin-left: auto;
+    }
+    .donation_input-field{
+        width: 20%;
     }
 }
 
