@@ -7,19 +7,11 @@ const successModal = document.getElementById('success-modal')
 const gotItBtn = document.getElementById('got-it')
 const selectRewardBtnArr = document.querySelectorAll('.option-card_btn')
 const continueBtnArr = document.querySelectorAll('.donation_continue-btn')
-
 const moneyTotalDisplay = document.getElementById('money-total')
 const usersTotalDisplay = document.getElementById('users-total')
 const progressBar = document.getElementById('progress-fill')
 
-
-
-
-
-
 let totalFundedSum = parseInt(moneyTotalDisplay.innerText)
-// console.log(totalFundedSum +14)
-
 let totalUsers = parseInt(usersTotalDisplay.innerHTML)
 
 

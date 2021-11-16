@@ -392,10 +392,6 @@ nav{
   background-color:#147b74 ;
 }
 
-/* .option-card + .select:checked{
-    border-color: #147b74;
-} */
-
 .option-card_description-block{
     display: flex;
     flex-flow: row wrap;
